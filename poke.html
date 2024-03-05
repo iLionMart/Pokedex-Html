@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta a pokeAPI</title>
+    <script src="poke.js" defer></script>
+    <link rel="stylesheet" href="poke.css">
+</head>
+<body>
+   <section class="fondoCompleto">
+    <h1>Pokemon  !!!</h1>
+    <input type="text" placeholder="Escribe un pokemon" id="pokeName" name = "pokeName">
+    <br>
+    <img src="./pokeball.jpg" alt="Pokemon" id="pokeImg" width = "150px">
+    <br>
+    <button id="boton" onclick = "fetchPokemon()">Cambiar Imagen</button>
+    <div id="pokeCard">
+        <div id="pokeNumero"></div>
+        
+        <div id="pokeTipos"> </div>
+        <div id="pokeStads"></div>
+        <div id="pokeMovimientos"></div>
+        
+    </div>
+   </section> 
+</body>
+</html>

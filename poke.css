@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondoCompleto{
+    background-image: url("./imagenPokedex.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    float: right;
+    margin-right:250px;
+}
+
+#pokeImg{
+    position: absolute;
+    top:160px;
+    margin-left: 250px;
+    width:230px;
+}
+
+#pokeName{
+    font-size: 20px;
+    position: absolute;
+    top: 410px;
+    margin-left:250px;
+    width: 200px;
+    text-align: center;
+}
+
+#boton{
+    width: 115px;
+    height: 52px;
+    padding: 3px;
+    color:blue;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 470px;
+    margin-left: 285px;
+    border-radius: 5px;
+}
+#boton:hover{
+    color:rgb(53,38,38);
+    background: #30ce40;
+    border-radius: 5px;
+    box-shadow: 2px 3px 15px -2px rgba(0,0,0,0.43);
+}
+#pokeNumero{
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 95px;
+    margin-left:410px;
+    text-align: center;
+    font-size: 25px;
+    border-color: dimgrey;
+    width:100px;
+}
+
+#pokeTipos{
+    font-size:20px;
+    font-weight: 900;
+    position:absolute;
+    top: 500px;
+    margin-left: 710px;
+    padding: 3px;
+    width: 400px;
+    height: 20px;
+    /*background: #30ce4064;*/
+}
+
+#pokeTipos div{
+    float:left;
+    margin-left: 30px;
+    margin-right: 80px;
+}
+#pokeStads{
+    font-size:16px;
+    position:absolute;
+    top:365px;
+    margin-left: 670px;
+    padding: 3px;
+    width: 370px;
+    height: 85px;
+    /*background: #30ce4064;*/
+}
+
+#pokeStads div{
+    float:left;
+    margin: 3px;
+}
+
+#pokeMovimientos{
+    font-size: 12px;
+    position: absolute;
+    top: 120px;
+    margin-left: 670px;
+    padding:3px;
+    width:450px;
+    height:230px;
+    /*background: #30ce4064;*/
+}
+
+#pokeMovimientos div{
+    float:left;
+    margin:5px;
+    width:70px;
+    border-radius:5px;
+    text-align: center;
+    background: #f7d70a;
+}
