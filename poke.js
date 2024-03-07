@@ -10,7 +10,7 @@ const fetchPokemon = ()=>{
     const url = `https://pokeapi.co/api/v2/pokemon/${nombrePokemon}`;    
     fetch(url).then((res)  =>{
         if (res.status != "200"){
-            pokeImage("./pokemon-sad.gif");
+            pokeImage("./pokesad.jpg");
             pokeNumero.innerHTML = "";
             pokeTipos.innerHTML = "";
             pokeMovimientos.innerHTML="";
